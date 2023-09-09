@@ -1,3 +1,31 @@
 body {
   font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.center_element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 30%;
+  height: 70%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+}
+
+.result {
+  width: 100%;
+  background-color: violet;
+  height: 20%;
+}
+.buttons {
+  width: 100%;
+  height: 80%;
+  background-color: rgb(48, 8, 250);
 }
